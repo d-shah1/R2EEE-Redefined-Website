@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/*!
-Theme Name: Sandbox - Modern & Multipurpose Bootstrap 5 Template
-Theme URI:	https://sandbox.elemisthemes.com/start.html
-Version:	1.1.1
-Author:		elemis
-*/
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700");
 
 :root {
@@ -487,6 +481,14 @@ progress {
   font-size: calc(1.365rem + 1.38vw);
   font-weight: 700;
   line-height: 1.2;
+}
+
+#banner-heading {
+  font-size: 1.8rem;
+}
+
+.display-1 .typer {
+  font-size: 2.6rem;
 }
 
 @media (min-width: 1200px) {
@@ -23944,6 +23946,7 @@ figure img {
   height: auto;
   width: 100%;
   max-width: 100%;
+  mask-size: auto;
   -webkit-mask-size: auto auto;
   -webkit-mask-image: url(../../img/blob.svg);
   mask-image: url(../../img/blob.svg);
@@ -25926,6 +25929,7 @@ article .post-meta li.ms-auto:before {
 
 .text-gradient {
   background: linear-gradient(to right, #fab758, #f78b77, #e2626b);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -32754,6 +32758,7 @@ button.hamburger.animate.active:after {
   background: #aab0bc;
   opacity: 0.5;
   display: block;
+  backface-visibility: visible;
   -webkit-backface-visibility: visible;
   transition: all 200ms ease-in-out;
   border-radius: 100%;
@@ -32796,6 +32801,7 @@ button.hamburger.animate.active:after {
   display: flex;
   align-items: center;
   justify-content: center;
+  backface-visibility: visible;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
 }
@@ -33077,7 +33083,6 @@ button.hamburger.animate.active:after {
 [class*=" uil-"],
 [class^=icn-],
 [class*=" icn-"] {
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -37945,6 +37950,7 @@ figure.overlay img {
 }
 
 .lift {
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   transform: translateY(0);
@@ -39091,7 +39097,7 @@ footer.bg-dark {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: rgba(30, 34, 40, 0.5);
+  background: rgba(30, 34, 40, 0.7);
 }
 
 .image-wrapper.bg-overlay-300:before {
@@ -39343,4 +39349,26 @@ footer.bg-dark.angled.upper-start:before {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+body::-webkit-scrollbar {
+    background-color: #fff;
+    width: 14px;
+}
+
+/* background of the scrollbar except button or resizer */
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+body::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+body::-webkit-scrollbar-button {
+    display:none;
 }

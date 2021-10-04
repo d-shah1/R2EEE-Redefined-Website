@@ -45,12 +45,12 @@
 }
 
 .display-4 {
-  font-size: calc(1.325rem + .9vw);
+  font-size: 2.3rem;
 }
 
 @media (min-width: 1200px) {
   .display-4 {
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }
 
