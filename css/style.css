@@ -483,13 +483,14 @@ progress {
   line-height: 1.2;
 }
 
-#banner-heading {
+.banner-heading {
   font-size: 1.8rem;
 }
 
 .display-1 .typer {
   font-size: 2.6rem;
 }
+
 
 @media (min-width: 1200px) {
   .display-1 {
@@ -3405,7 +3406,28 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
-
+.icon-number-one{
+  background-color: #FDDDD4;
+  
+}
+.icon-number-one span{
+  color: #F9582E
+  
+}
+.icon-number-two{
+  color: #FDEBD4;;
+  
+}
+.icon-number-two span{
+  color: #FCA12E;
+  
+}
+.icon-number-three{
+  background-color: #EAF3EF;
+}
+.icon-number-three span{
+  color: #4AB543; 
+}
 .form-label {
   margin-bottom: 0.5rem;
   color: #959ca9;
@@ -24115,15 +24137,15 @@ figure img {
 }
 
 .bg-pale-orange {
-  background-color: #feece9 !important;
+  background-color: RGBA(249, 88, 46, 0.2) !important;
 }
 
 .bg-pale-yellow {
-  background-color: #fef3e4 !important;
+  background-color: RGBA(252, 161, 46, 0.2) !important;
 }
 
 .bg-pale-green {
-  background-color: #e7f5f0 !important;
+  background-color: RGBA(39,95,35,0.2) !important;
 }
 
 .bg-pale-leaf {
