@@ -484,11 +484,12 @@ progress {
 }
 
 .banner-heading {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
+
 .display-1 .typer {
-  font-size: 2.6rem;
+  font-size: 1.9rem;
 }
 
 
@@ -605,6 +606,37 @@ progress {
   max-width: 100%;
   height: auto;
 }
+.navbar-image{
+  min-width: 346px;
+  max-width:576px;
+}
+.mobile-view{
+  display:none;
+}
+.desktop-view{
+  display:block;
+}
+@media only screen and (max-width: 600px) {
+  .mobile-view{
+    display:block;
+  }
+  .desktop-view{
+    display:none;
+  }
+ .need-section{
+   text-align: center; }
+  .navbar-image{
+    min-width: 346px;
+    max-width:395px;
+  }
+  .banner-heading{
+    font-size :1.6rem;
+  }
+  .banner-heading .typer{
+    font-size :1.6rem;
+  }
+  
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -650,6 +682,7 @@ progress {
   .container {
     max-width: 540px;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -659,6 +692,7 @@ progress {
   .container {
     max-width: 720px;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -16849,6 +16883,9 @@ textarea.form-control.is-invalid {
   .my-lg-n25 {
     margin-top: -22.5rem !important;
     margin-bottom: -22.5rem !important;
+  }
+  .mt-lg-n0 {
+    margin-top: rem !important;
   }
 
   .mt-lg-n1 {
