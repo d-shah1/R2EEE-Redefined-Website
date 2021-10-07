@@ -616,7 +616,10 @@ progress {
 .desktop-view{
   display:block;
 }
+.join-us .container{
+  padding-bottom: 20px;
 
+}
 @media only screen and (max-width: 600px) {
   .mobile-view{
     display:block;
@@ -649,6 +652,11 @@ progress {
   }
   .mobile-view-card-center{
     text-align: center;
+  }
+  .join-us .container{
+    padding-top:1px;
+    padding-bottom: 20px;
+  
   }
 }
 
