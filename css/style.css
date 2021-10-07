@@ -616,6 +616,7 @@ progress {
 .desktop-view{
   display:block;
 }
+
 @media only screen and (max-width: 600px) {
   .mobile-view{
     display:block;
@@ -626,8 +627,7 @@ progress {
  .need-section{
    text-align: center; }
   .navbar-image{
-    min-width: 346px;
-    max-width:395px;
+    width: 100%;
   }
   .banner-heading{
     font-size :1.6rem;
@@ -635,7 +635,21 @@ progress {
   .banner-heading .typer{
     font-size :1.6rem;
   }
-  
+  .mobile-view-h3{
+    font-size:20px;
+  }
+  .mobile-view-h3{
+    font-size:20px !important; 
+  }
+  .mobile-view-h2{
+    font-size:10px !important; 
+  }
+  .mobile-view-h{
+    font-size:30px !important; 
+  }
+  .mobile-view-card-center{
+    text-align: center;
+  }
 }
 
 .img-thumbnail {
@@ -31430,7 +31444,7 @@ fieldset:disabled .btn.btn-circle {
   .navbar .navbar-collapse .nav-link {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
-    color: #fff;
+    
   }
 
   .navbar-other .nav-item.language-select .nav-link {
@@ -31562,6 +31576,9 @@ fieldset:disabled .btn.btn-circle {
 .offcanvas-info .widget {
   margin-bottom: 2rem;
 }
+.header-logo{
+  width: 85px; height: 42px;
+}
 
 @media (max-width: 991.98px) {
   .offcanvas-nav {
@@ -31574,13 +31591,14 @@ fieldset:disabled .btn.btn-circle {
     padding-right: 0;
     padding-left: 1.5rem;
     padding-bottom: 0.5rem;
+    padding-top:1.02rem;
     overflow-y: auto;
     visibility: hidden;
-    background: #1e2228;
+    background: whitesmoke;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
     transition-property: left, visibility;
-    transition: left 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    animation: fadeIn 3s;
     align-items: start;
     -moz-background-clip: padding;
     -webkit-background-clip: padding;
@@ -31600,7 +31618,7 @@ fieldset:disabled .btn.btn-circle {
     left: 0;
     visibility: visible;
   }
-}
+};
 
 @media (max-width: 991.98px) {
   .offcanvas-header {
