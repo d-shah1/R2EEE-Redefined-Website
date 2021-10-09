@@ -38674,6 +38674,12 @@ video.player {
   .projects-tiles .project {
     margin-top: 5rem;
   }
+  .text-center-mobile{
+    text-align: center;
+  }
+  .padding-top-mobile{
+    padding-top:50px;
+  }
 }
 
 .projects-overflow .project-details {
