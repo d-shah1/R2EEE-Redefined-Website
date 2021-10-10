@@ -1,11 +1,11 @@
-@import "../../fonts/thicccboi/thicccboi.css";
 
+@import url('https://fonts.googleapis.com/css?family=Rubik');
 * {
   word-spacing: normal !important;
 }
 
 body {
-  font-family: "THICCCBOI", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 0.85rem;
 }
 

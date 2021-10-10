@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400");
 
 .display-1,
 .display-2,
@@ -8,8 +8,8 @@
 .display-6,
 .counter-wrapper .counter,
 .post-title {
-  font-family: "DM Serif Display";
-  font-weight: normal !important;
+  font-family: "Inter";
+  
   word-spacing: normal !important;
   letter-spacing: normal !important;
 }

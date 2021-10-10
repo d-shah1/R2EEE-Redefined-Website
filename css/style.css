@@ -485,6 +485,7 @@ progress {
 
 .banner-heading {
   font-size: 2rem;
+  
 }
 
 
@@ -634,9 +635,11 @@ progress {
   }
   .banner-heading{
     font-size :1.6rem;
+  
   }
   .banner-heading .typer{
     font-size :1.6rem;
+
   }
   .mobile-view-h3{
     font-size:20px;
@@ -38588,7 +38591,9 @@ video.player {
   transition: 0.3s ease-in-out;
   border-radius: 100%;
 }
-
+.border-right-header{
+  border-right: 0.5px solid rgba(139,156,175,0.2);
+}
 .pricing-switchers .pricing-switcher.pricing-switcher-active {
   color: #fff;
 }
@@ -38679,6 +38684,9 @@ video.player {
   }
   .padding-top-mobile{
     padding-top:50px;
+  }
+  .border-right-header{
+    border: none;
   }
 }
 
