@@ -477,27 +477,23 @@ progress {
   font-weight: 500;
 }
 
-.display-1 {
-  font-size: calc(1.365rem + 1.38vw);
-  font-weight: 700;
-  line-height: 1.2;
-}
+
 
 .banner-heading {
-  font-size: 2rem;
+  font-size: 1.8rem;
   
 }
 
 
-.display-1 .typer {
-  font-size: 1.9rem;
+.display-1{
+	font-size:1.8rem;
+	
+	line-height:1.2;
 }
-
-
-@media (min-width: 1200px) {
-  .display-1 {
-    font-size: 2.4rem;
-  }
+@media (min-width:1200px){
+	.display-1{
+		font-size:1.2rem
+	}
 }
 
 .display-2 {
@@ -621,6 +617,9 @@ progress {
   padding-bottom: 20px;
 
 }
+.banner-heading .typer{
+  font-size: 0.8rem;
+}
 @media only screen and (max-width: 600px) {
   .mobile-view{
     display:block;
@@ -634,12 +633,10 @@ progress {
     width: 100%;
   }
   .banner-heading{
-    font-size :1.6rem;
-  
+    font-size :1.2rem;
   }
   .banner-heading .typer{
-    font-size :1.6rem;
-
+    font-size :1.2rem;
   }
   .mobile-view-h3{
     font-size:20px;
@@ -4780,7 +4777,7 @@ textarea.form-control.is-invalid {
 
 .dropdown-menu-dark .dropdown-item:hover,
 .dropdown-menu-dark .dropdown-item:focus {
-  color: #fff;
+  color: #3f78e0;
   background-color: rgba(255, 255, 255, 0.15);
 }
 
@@ -4988,7 +4985,7 @@ textarea.form-control.is-invalid {
 .nav-tabs .nav-item.show .nav-link {
   color: #3f78e0;
   background-color: #fff;
-  border-color: rgba(164, 174, 198, 0.2);
+  
 }
 
 .nav-tabs .dropdown-menu {
@@ -23747,8 +23744,8 @@ h6,
   line-height: 1.55;
 }
 
-.display-1 {
-  line-height: 1.2;
+.display-1{
+	line-height:1.2;
 }
 
 .display-2,
@@ -30923,7 +30920,7 @@ fieldset:disabled .btn.btn-circle {
 
 .hero-slider-wrapper.bg-dark .hero-slider:before,
 .lg-outer .lg-item:after {
-  border-color: #fff;
+  border-color: #3f78e0;
 }
 
 .dropdown-menu {
@@ -30991,7 +30988,7 @@ fieldset:disabled .btn.btn-circle {
   }
 
   .navbar .navbar-collapse .dropdown-menu .dropdown-item {
-    color: #fff;
+    color: #343F52;
     padding-left: 1rem;
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
@@ -31001,7 +30998,7 @@ fieldset:disabled .btn.btn-circle {
     padding-left: 1rem;
     padding-right: 1rem;
     margin-top: 0.5rem;
-    color: #fff;
+    color: #343F52;
   }
 }
 
@@ -31057,7 +31054,7 @@ fieldset:disabled .btn.btn-circle {
 }
 
 .navbar-dark .navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow {
-  color: #fff;
+  color: #3f78e0;
 }
 
 .navbar-dark.transparent.banner--stick .navbar-nav:not(.sm-collapsible) .nav-link .sub-arrow {
@@ -31111,7 +31108,7 @@ fieldset:disabled .btn.btn-circle {
 .navbar-dark:not(.fixed) .dropdown-toggle:after,
 .navbar-bg-dark .dropdown-toggle:after,
 .btn.dropdown-toggle:after {
-  color: #fff;
+  color: #3f78e0;
 }
 
 .share-dropdown .dropdown-menu {
@@ -31211,7 +31208,7 @@ fieldset:disabled .btn.btn-circle {
   .navbar .navbar-collapse .nav-link.active,
   .navbar .navbar-collapse .nav-link:hover,
   .navbar .navbar-collapse .nav-link:focus {
-    color: #fff !important;
+    color: #3f78e0 !important;
   }
 }
 
@@ -31454,12 +31451,34 @@ fieldset:disabled .btn.btn-circle {
     display: none !important;
   }
 }
-
+#first-nav{
+  margin-top: 0px;
+  
+}
+#header-image-style{
+  margin-top: 0rem;
+}
+.image-width-400{
+  width:400px;
+}
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse .nav-link {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
+  }
+  .image-width-400{
+    width:300px;
+    align-items: center;
+  }
+  .try-it-now-button{
+    display: none;
+  }
+  #first-nav{
+    margin-top: -3.9rem;
     
+  }
+  #header-image-style{
+    margin-top: 1rem;
   }
 
   .navbar-other .nav-item.language-select .nav-link {
@@ -31602,14 +31621,14 @@ fieldset:disabled .btn.btn-circle {
     bottom: 0;
     right: 100%;
     left: -15rem;
-    width: 15rem;
+    width:100%;
     padding-right: 0;
     padding-left: 1.5rem;
     padding-bottom: 0.5rem;
     padding-top:1.02rem;
     overflow-y: auto;
     visibility: hidden;
-    background: whitesmoke;
+    background: #F1F5FD;
     transition-timing-function: ease-in-out;
     transition-duration: 0.3s;
     transition-property: left, visibility;
