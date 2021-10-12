@@ -31477,6 +31477,18 @@ fieldset:disabled .btn.btn-circle {
 .consulting-image{
   width: 60%;align-items: center;margin-left: 20%;margin-bottom: 100px;
 }
+.employee-engagement{
+  width:600px;
+}
+.financial{
+  width: 80%;margin-left: 10%;margin-bottom: -100px;margin-top: -100px;
+}
+.industries{
+  width: 60%;align-items: center;margin-left: 20%;
+}
+.development{
+  width: 50%;margin-left: 20%;
+}
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse .nav-link {
     padding-top: 0.3rem;
@@ -31487,9 +31499,25 @@ fieldset:disabled .btn.btn-circle {
     align-items: center;margin-left: 0%;margin-bottom: 0px;
     margin-top:-16%
   }
+  .industries{
+    width: 100%;align-items: center;margin-left: 0%;
+  }
+  .development{
+    width: 100%;align-items: center;margin-left: 0%;
+  }
+  
+  .financial{
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: -100px;
+    margin-top: -100px;
+  }
   .image-width-400{
     width:300px;
     align-items: center;
+  }
+  .employee-engagement{
+    width:420px;
   }
   .get-on-board-div{
     margin-top: -15px;margin-bottom: 70px;
