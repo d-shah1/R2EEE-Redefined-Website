@@ -31461,14 +31461,41 @@ fieldset:disabled .btn.btn-circle {
 .image-width-400{
   width:400px;
 }
+.fs-sm-18{
+  font-size: 22px;
+}
+.fs-sm-16{
+  font-size: 20px;
+}
+.get-on-board-div{
+  margin-top: 10%;
+  margin-bottom: 0px;
+}
+.contact-us-image{
+  margin-top: -100px;
+}
+.consulting-image{
+  width: 60%;align-items: center;margin-left: 20%;margin-bottom: 100px;
+}
 @media (max-width: 991.98px) {
   .navbar .navbar-collapse .nav-link {
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
   }
+  .consulting-image{
+    width: 100%;
+    align-items: center;margin-left: 0%;margin-bottom: 0px;
+    margin-top:-16%
+  }
   .image-width-400{
     width:300px;
     align-items: center;
+  }
+  .get-on-board-div{
+    margin-top: -15px;margin-bottom: 70px;
+  }
+  .contact-us-image{
+    margin-top: -65px;
   }
   .try-it-now-button{
     display: none;
@@ -31476,7 +31503,12 @@ fieldset:disabled .btn.btn-circle {
   #first-nav{
     margin-top: -3.9rem; 
   }
-  fs-sm-18
+  .fs-sm-18{
+    font-size: 18px;
+  }
+  .fs-sm-16{
+    font-size: 16px;
+  }
   #header-image-style{
     margin-top: 1rem;
   }
@@ -39497,4 +39529,5 @@ body::-webkit-scrollbar-button {
 
 .form-select{
   height:72px;
+  
 }
