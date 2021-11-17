@@ -182,7 +182,29 @@
           <!-- /column -->
         </div>
         <!-- /.row -->
-        <div class="row text-center-mobile" id="join-us-div">
+        <style>
+          ::-webkit-file-upload-button {
+            display: none;
+          }
+        
+          input[type='file'] {
+            color: rgba(0, 0, 0, 0)
+          }
+        
+          input[type='file'] {
+            opacity: 1
+          }
+        </style>
+        <script>
+          $('#button').click(function () {
+            $("input[type='file']").trigger('click');
+          })
+
+          $("input[type='file']").change(function () {
+            $('#val').text(this.value.replace(/C:\\fakepath\\/i, ''))
+          })
+        </script>
+        <div class="row text-center-mobile" >
           <div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
             <h2 class="display-1 mb-3 text-center-mobile">Get us to call you</h2>
             <p class="lead fs-lg mb-12">Input your <span class="underline">details in the form</span> below and our team will contact you shortly</p>
@@ -192,18 +214,9 @@
                 <div class="col-md-6">
                   <div class="form-floating mb-4">
                     <input id="form_name" type="text" name="name" class="form-control" placeholder="Jane" required>
-                    <label for="form_name">First Name *</label>
+                    <label for="form_name">Name *</label>
                     <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your first name. </div>
-                  </div>
-                </div>
-                <!-- /column -->
-                <div class="col-md-6">
-                  <div class="form-floating mb-4">
-                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
-                    <label for="form_lastname">Last Name *</label>
-                    <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your last name. </div>
+                    <div class="invalid-feedback"> Please enter your name. </div>
                   </div>
                 </div>
                 <!-- /column -->
@@ -215,26 +228,41 @@
                     <div class="invalid-feedback"> Please provide a valid email address. </div>
                   </div>
                 </div>
-                <!-- /column -->
+
                 <div class="col-md-6">
-                  <div class="form-select-wrapper mb-4">
-                    <select class="form-select" id="form-select" required>
-                      <option selected disabled value="">Select a department</option>
-                      <option value="1">Sales</option>
-                      <option value="2">Marketing</option>
-                      <option value="3">Customer Support</option>
-                    </select>
+                  <div class="form-floating mb-4">
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Doe" required>
+                    <label for="form_lastname">Job Position for Application *</label>
                     <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please select a department. </div>
+                    <div class="invalid-feedback"> Please enter position for application. </div>
                   </div>
                 </div>
+           
+                <div class="col-md-6">
+                  <div class="form-floating mb-4">
+                    <!-- <div>
+                      <input type='file'/>
+                      <span id='val'></span>
+                      <span id='button'>Select File</span>
+                  </div> -->
+                    <input id="form_lastname" type="file" value="Upload Resume*"  name="surname" class="form-control" placeholder="Doe" required>
+                    <label for="form_lastname">Upload Resume*</label>
+                    <div class="valid-feedback"> Looks good! </div>
+                    <div class="invalid-feedback"> Please Upload Resume. </div>
+                  </div>
+                </div>
+                <!-- /column -->
+             
+                <!-- /column -->
+        
+             
                 <!-- /column -->
                 <div class="col-12">
                   <div class="form-floating mb-4">
                     <textarea id="form_message" name="message" class="form-control" placeholder="Your message" style="height: 150px" required></textarea>
-                    <label for="form_message">Message *</label>
+                    <label for="form_message">Cover Letter *</label>
                     <div class="valid-feedback"> Looks good! </div>
-                    <div class="invalid-feedback"> Please enter your messsage. </div>
+                    <div class="invalid-feedback"> Please enter your Cover Letter. </div>
                   </div>
                 </div>
                 <!-- /column -->
