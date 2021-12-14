@@ -1,842 +1,1630 @@
-<!DOCTYPE html
-  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:o="urn:schemas-microsoft-com:office:office">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="color-scheme" content="light dark" />
-  <meta name="supported-color-schemes" content="light dark" />
-  <title>Udos - B2B Emailer - By WebDuck Design Studio</title>
+  <!--[if (gte mso 9)|(IE)]>
+  <xml>
+    <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+  <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+  <meta name="format-detection" content="date=no"> <!-- disable auto date linking in iOS -->
+  <meta name="format-detection" content="address=no"> <!-- disable auto address linking in iOS -->
+  <meta name="format-detection" content="email=no"> <!-- disable auto email linking in iOS -->
+  <meta name="color-scheme" content="only">
+  <title></title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" type="text/css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
   <style type="text/css">
-    * {
-      margin: 0;
-      padding: 0;
+    /*Basics*/
+    body {
+      margin: 0px !important;
+      padding: 0px !important;
+      display: block !important;
+      min-width: 100% !important;
+      width: 100% !important;
+      -webkit-text-size-adjust: none;
       font-family: "Rubik", sans-serif;
     }
 
     table {
       border-spacing: 0;
-      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
     }
 
-    td {
-      padding: 0;
-      vertical-align: top;
+    table td {
       border-collapse: collapse;
+      mso-line-height-rule: exactly;
     }
 
-    p {
-      font-size: 15px;
+    td img {
+      -ms-interpolation-mode: bicubic;
+      width: auto;
+      max-width: auto;
+      height: auto;
+      margin: auto;
+      display: block !important;
+      border: 0px;
+    }
+
+    td p {
       margin: 0;
+      padding: 0;
     }
 
-    img {
-      border: 0;
-      border-width: 0;
+    td div {
+      margin: 0;
+      padding: 0;
     }
 
-    a {
-      color: #277fd2;
+    td a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /*Outlook*/
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: inherit;
+    }
+
+    .ReadMsgBody {
+      width: 100%;
+      background-color: #ffffff;
+    }
+
+    /* iOS BLUE LINKS */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+
+    /*Gmail blue links*/
+    u+#body a {
+      color: inherit;
+      text-decoration: none;
+      font-size: inherit;
+      font-family: inherit;
+      font-weight: inherit;
+      line-height: inherit;
+    }
+
+    /*Buttons fix*/
+    .undoreset a,
+    .undoreset a:hover {
+      text-decoration: none !important;
+    }
+
+    .yshortcuts a {
+      border-bottom: none !important;
+    }
+
+    .ios-footer a {
+      color: #aaaaaa !important;
       text-decoration: none;
     }
-    .responsive-div-one{
-      background-color: #fff;
-                overflow-wrap: break-word;
-                word-break: break-word;
-                padding: 91px 90px 0px;
-                font-family: 'Rubik', sans-serif;
-                text-align: left;
-                color: #555251;
-                padding-top: 10px;
-    }
-    .responsive-div-two{
-      background-color: #fff;
-                        overflow-wrap: break-word;
-                        word-break: break-word;
-                        
-                        padding: 88px 89px 0px;
-                        font-family: 'Rubik', sans-serif;
-                        text-align: left;
-                        padding-top: 50px;
-                        color: #555251;
+
+    /* data-outer-table="800 - 600" */
+    .outer-table {
+      width: 640px !important;
+      max-width: 640px !important;
     }
 
-    .responsive-div {
-      padding: 50px 100px 0px 111px;
-      background-color: #fff;
-      overflow-wrap: break-word;
-      word-break: break-word;
-
-      font-family: 'Rubik', sans-serif;
-      text-align: left;
-      color: #555251;
+    /* data-inner-table="780 - 540" */
+    .inner-table {
+      width: 580px !important;
+      max-width: 580px !important;
     }
 
-    @media screen and (max-width: 599.98px) {
-      .px-680-0 {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+    /*Responsive-Tablet*/
+    @media only screen and (max-width: 799px) and (min-width: 601px) {
+      .outer-table.row {
+        width: 640px !important;
+        max-width: 640px !important;
       }
 
-      .pt-680-0 {
-        padding-top: 0 !important;
+      .inner-table.row {
+        width: 580px !important;
+        max-width: 580px !important;
+      }
+    }
+
+    /*Responsive-Mobile*/
+    @media only screen and (max-width: 600px) and (min-width: 320px) {
+      table.row {
+        width: 100% !important;
+        max-width: 100% !important;
       }
 
-      img.third-img-last {
-        width: 200px !important;
-        max-width: 200px !important;
+      td.row {
+        width: 100% !important;
+        max-width: 100% !important;
       }
 
-      .d-680-none {
-        display: none !important;
+      .img-responsive img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        margin: auto;
       }
 
-      .pr-large {
-        padding-right: 140px !important;
+      .center-float {
+        float: none !important;
+        margin: auto !important;
       }
 
-      .center-text-mobile {
+      .center-text {
         text-align: center !important;
       }
 
-      .responsive-div {
-        padding: 20px 0px 0px 40px;
-        background-color: #fff;
-        overflow-wrap: break-word;
-        word-break: break-word;
-
-        font-family: 'Rubik', sans-serif;
-        text-align: left;
-        color: #555251;
-      }
-      .responsive-div-one{
-      background-color: #fff;
-                overflow-wrap: break-word;
-                word-break: break-word;
-                padding: 45px 45px 0px;
-                font-family: 'Rubik', sans-serif;
-                text-align: left;
-                color: #555251;
-                padding-top: 10px;
-    }
-    .responsive-div-two{
-      background-color: #fff;
-                        overflow-wrap: break-word;
-                        word-break: break-word;
-                        padding: 45px 45px 0px;
-                        
-                        font-family: 'Rubik', sans-serif;
-                        text-align: left;
-                        padding-top: 50px;
-                        color: #555251;
-    }
-    }
-
-    @media screen and (max-width: 549.98px) {
-      .pt-550-0 {
-        padding-top: 0 !important;
+      .container-padding {
+        width: 100% !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
       }
 
-      .pr-large {
-        padding-right: 100px !important;
-      }
-    }
-
-    @media screen and (max-width: 499.98px) {
-      .pt-500-0 {
-        padding-top: 0 !important;
+      .container-padding10 {
+        width: 100% !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
       }
 
-      .pr-large {
-        padding-right: 60px !important;
+      .hide-mobile {
+        display: none !important;
       }
-    }
 
-    @media screen and (max-width: 399.98px) {
-      .banner {
+      .menu-container {
+        text-align: center !important;
+      }
+
+      .autoheight {
         height: auto !important;
-        padding-top: 50px !important;
-        padding-bottom: 30px !important;
       }
 
-      .px-sm-0 {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+      .m-padding-10 {
+        margin: 10px 0 !important;
       }
 
-      .pt-400-0 {
-        padding-top: 0 !important;
+      .m-padding-15 {
+        margin: 15px 0 !important;
       }
 
-      img.third-img {
-        width: 200px !important;
-        max-width: 200px !important;
+      .m-padding-20 {
+        margin: 20px 0 !important;
       }
 
-      .pr-large {
-        padding-right: 25px !important;
+      .m-padding-30 {
+        margin: 30px 0 !important;
+      }
+
+      .m-padding-40 {
+        margin: 40px 0 !important;
+      }
+
+      .m-padding-50 {
+        margin: 50px 0 !important;
+      }
+
+      .m-padding-60 {
+        margin: 60px 0 !important;
+      }
+
+      .m-padding-top10 {
+        margin: 30px 0 0 0 !important;
+      }
+
+      .m-padding-top15 {
+        margin: 15px 0 0 0 !important;
+      }
+
+      .m-padding-top20 {
+        margin: 20px 0 0 0 !important;
+      }
+
+      .m-padding-top30 {
+        margin: 30px 0 0 0 !important;
+      }
+
+      .m-padding-top40 {
+        margin: 40px 0 0 0 !important;
+      }
+
+      .m-padding-top50 {
+        margin: 50px 0 0 0 !important;
+      }
+
+      .m-padding-top60 {
+        margin: 60px 0 0 0 !important;
+      }
+
+      .m-height10 {
+        font-size: 10px !important;
+        line-height: 10px !important;
+        height: 10px !important;
+      }
+
+      .m-height15 {
+        font-size: 15px !important;
+        line-height: 15px !important;
+        height: 15px !important;
+      }
+
+      .m-height20 {
+        font-size: 20px !important;
+        line-height: 20px !important;
+        height: 20px !important;
+      }
+
+      .m-height25 {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        height: 25px !important;
+      }
+
+      .m-height30 {
+        font-size: 30px !important;
+        line-height: 30px !important;
+        height: 30px !important;
+      }
+
+      .radius6 {
+        border-radius: 6px !important;
+      }
+
+      .fade-white {
+        background-color: rgba(255, 255, 255, 0.8) !important;
+      }
+
+      .rwd-on-mobile {
+        display: inline-block !important;
+        padding: 5px;
+      }
+
+      .center-on-mobile {
+        text-align: center !important;
+      }
+
+      .rwd-col {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: inline-block !important;
       }
     }
   </style>
+  <style type="text/css" class="export-delete">
+    .composer--mobile table.row {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
 
-  <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" type="text/css" />
-  <!--<![endif]-->
+    .composer--mobile td.row {
+      width: 100% !important;
+      max-width: 100% !important;
+    }
 
-  <!--[if (gte mso 9)|(IE)]>
-      <style type="text/css">
-        table {
-          border-collapse: collapse !important;
-        }
-      </style>
-    <![endif]-->
+    .composer--mobile .img-responsive img {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin: auto;
+    }
+
+    .composer--mobile .center-float {
+      float: none !important;
+      margin: auto !important;
+    }
+
+    .composer--mobile .center-text {
+      text-align: center !important;
+    }
+
+    #composer table.container-padding {
+      width: 100% !important;
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+
+    #composer table.container-padding10 {
+      width: 100% !important;
+      padding-left: 10px !important;
+      padding-right: 10px !important;
+    }
+
+    .composer--mobile .hide-mobile {
+      display: none !important;
+    }
+
+    .composer--mobile .menu-container {
+      text-align: center !important;
+    }
+
+    .composer--mobile .autoheight {
+      height: auto !important;
+    }
+
+    .composer--mobile .m-padding-10 {
+      margin: 10px 0 !important;
+    }
+
+    .composer--mobile .m-padding-15 {
+      margin: 15px 0 !important;
+    }
+
+    .composer--mobile .m-padding-20 {
+      margin: 20px 0 !important;
+    }
+
+    .composer--mobile .m-padding-30 {
+      margin: 30px 0 !important;
+    }
+
+    .composer--mobile .m-padding-40 {
+      margin: 40px 0 !important;
+    }
+
+    .composer--mobile .m-padding-50 {
+      margin: 50px 0 !important;
+    }
+
+    .composer--mobile .m-padding-60 {
+      margin: 60px 0 !important;
+    }
+
+    .composer--mobile .m-padding-top10 {
+      margin: 30px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-padding-top15 {
+      margin: 15px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-padding-top20 {
+      margin: 20px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-padding-top30 {
+      margin: 30px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-padding-top40 {
+      margin: 40px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-padding-top50 {
+      margin: 50px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-padding-top60 {
+      margin: 60px 0 0 0 !important;
+    }
+
+    .composer--mobile .m-height10 {
+      font-size: 10px !important;
+      line-height: 10px !important;
+      height: 10px !important;
+    }
+
+    .composer--mobile .m-height15 {
+      font-size: 15px !important;
+      line-height: 15px !important;
+      height: 15px !important;
+    }
+
+    .composer--mobile .m-height20 {
+      font-size: 20px !important;
+      line-height: 20px !important;
+      height: 20px !important;
+    }
+
+    .composer--mobile .m-height25 {
+      font-size: 25px !important;
+      line-height: 25px !important;
+      height: 25px !important;
+    }
+
+    .composer--mobile .m-height30 {
+      font-size: 30px !important;
+      line-height: 30px !important;
+      height: 30px !important;
+    }
+
+    .composer--mobile .radius6 {
+      border-radius: 6px !important;
+    }
+
+    .composer--mobile .fade-white {
+      background-color: rgba(255, 255, 255, 0.8) !important;
+    }
+
+    .composer--mobile .rwd-on-mobile {
+      display: inline-block !important;
+      padding: 5px;
+    }
+
+    .composer--mobile .center-on-mobile {
+      text-align: center !important;
+    }
+
+    .composer--mobile .rwd-col {
+      width: 100% !important;
+      max-width: 100% !important;
+      display: inline-block !important;
+    }
+  </style>
 </head>
 
-<body style="
-      margin: 0;
-      padding-top: 0;
-      padding-right: 0;
-      padding-bottom: 0;
-      padding-left: 0;
-      min-width: 100%;
-      background: url(./images/pattern.jpg);
-    ">
-  <!--[if (gte mso 9)|(IE)]>
-      <style type="text/css">
-        body {
-          background-color: #f6f9fc !important;
-        }
-        body,
-        table,
-        td,
-        p,
-        a {
-          font-family: sans-serif, Arial, Helvetica !important;
-        }
-      </style>
-    <![endif]-->
+<body data-bgcolor="Body"
+  style="margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"
+  bgcolor="#F1F5FD">
 
-  <center style="width: 100%; table-layout: fixed; padding-bottom: 40px">
-    <div style="max-width: 680px">
-      <!-- Preheader (remove comment) -->
-      <div style="
-            font-size: 0px;
-            color: #fafdfe;
-            line-height: 1px;
-            mso-line-height-rule: exactly;
-            display: none;
-            max-width: 0px;
-            max-height: 0px;
-            opacity: 0;
-            overflow: hidden;
-            mso-hide: all;
-          ">
-        <!-- Add Preheader Text Here (85-100 characters in length) -->
-      </div>
-      <!-- End Preheader (remove comment) -->
+  <span class="preheader-text" data-preheader-text
+    style="color: transparent; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; visibility: hidden; width: 0; display: none; mso-hide: all;"></span>
 
-      <!--[if (gte mso 9)|(IE)]>
-				<table width="680" align="center" style="border-spacing:0;color:#3d3d3d;" role="presentation">
-				<tr>
-				<td style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;">
-			<![endif]-->
+  <!-- Preheader white space hack -->
+  <div style="display: none; max-height: 0px; overflow: hidden;">
+    &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+  </div>
 
-      <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="
-            border-spacing: 0;
-            color: #3d3d3d;
-            font-family: 'Rubik', sans-serif, Arial, Helvetica;
-            background-color: #ffffff;
-            margin: 0;
-            padding-top: 0;
-            padding-right: 0;
-            padding-bottom: 0;
-            padding-left: 0;
-            width: 100%;
-            max-width: 680px;
-            margin-top: 20px;
-          " background="#ffffff" role="presentation">
-        <!-- START LOGO -->
-        <tr>
-          <td style="
-                padding-top: 0;
-                padding-right: 0;
-                padding-bottom: 0;
-                padding-left: 0;
-              ">
-            <table width="100%" style="border-spacing: 0" cellpadding="0" cellspacing="0" role="presentation">
-              <tr>
-                <td style="
-                      padding-top: 10px;
-                      padding-bottom: 10px;
-                      width: 100%;
-                      width: 680px;
-                      text-align: center;
-                    ">
-                  <a href="#" target="_blank">
-                    <img src="../img/R2EEE-Logo-full.png" alt="Udos - Thank you Emailer" width="150"
-                      style="border-width: 0" border="0" />
-                  </a>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <!-- END LOGO -->
+  <div data-primary-font="Poppins" data-secondary-font="Roboto"
+    style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">
+  </div>
+  <tr>
+    <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing top">&nbsp;</td>
+  </tr>
+  <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="width:100%;max-width:100%;">
+    <tr>
+      <!-- Outer Table -->
+      <td align="center" data-bgcolor="Body" bgcolor="#F1F5FD" data-composer>
 
-        <!-- START BANNER -->
-        <tr>
-          <td class="banner" width="680" style="background-position: center top; padding: 0 25px">
-            <table class="darkmode-transparent" cellpadding="0" cellspacing="0" role="presentation">
-              <tr>
-                <td width="680" align="center" valign="top" style="padding-top: 5px; text-align: center">
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-preheader-8">
+          <!-- colibri-preheader-8 -->
+          <tr>
+            <td align="center" bgcolor="#FFFFFF" data-bgcolor="BgColor">
 
-                  <p style="
-                        font-size: 22px;
-                        padding: 4px 0px;
-                        font-weight: 100;
-                        color: #555251;
-                      ">
-                    We have got so much to offer you
-                  </p>
-                </td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding-top: 20px;">
-            <img src="./images/Work_6.jpg" style="width: 80%;margin-left: 10%;" alt="" />
-          </td>
-        </tr>
-        <!-- END BANNER -->
+              <!-- Content -->
+              <table data-inner-table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                class="inner-table row" width="580" style="width:580px;max-width:580px;">
 
-        <tr>
-          <td class="responsive-div-one" >
 
-            <p style="line-height: 1.5;font-weight: 100;font-size: 20px;">
-              We have got so much to offer you
-              Over the years we have been analysing various industries, the work culture and other critical factors in
-              an organization and came up with this amazing idea which later on became a reality.
-
-            </p>
-            <h3 style="font-weight: 500; font-size: 24px;margin-top: 20px;">The reality is R2EEE
-            </h3>
-            <p style="
-                  margin-top: 10px;
-                  line-height: 1.5;
-                  font-weight: 100;
-                  font-size: 20px;
-                ">
-              The ultimate employee management tool that is good for your employees and your organization.
-            </p>
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <table style="font-family: 'Rubik', sans-serif; background-color: #fff" role="presentation" cellpadding="0"
-              cellspacing="0" width="100%" border="0">
-              <tbody>
+                <tr data-element="colibri-preheader-8-logo" data-label="Logo">
+                  <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing above logo">&nbsp;</td>
+                </tr>
+                <tr data-element="colibri-preheader-8-logo" data-label="Logo">
+                  <td align="center" class="center-text">
+                    <img style="width:150px;border:0px;display: inline!important;"
+                      src="https://d-shah1.github.io/R2EEE-Redefined-Website/img/R2EEE-Logo.png" width="120" border="0"
+                      editable="true" data-icon data-image-edit data-url data-label="Logo" data-image-width alt="logo">
+                  </td>
+                </tr>
                 <tr>
-                  <td class="responsive-div-two">
-                    <p style="
-                          font-size: 40px;
-                          font-weight: 400;
-                          line-height: 50px;
-                          color: #555251;
-                        ">
-                      There is nothing more beautiful than caring for employees
-                    </p>
-                    <p style="
-                          margin-top: 25px;
-                          color: #9a9896;
-                          font-weight: 100;
-                          font-size: 18px;
-                        ">
-                      R2EEE is more than just an employee management system. It offers multiple services that enhance
-                      the workspace productivity.
+                  <td height="10" style="font-size:10px;line-height:10px;" data-height="Spacing bottom">&nbsp;</td>
+                </tr>
 
-                    </p>
+                <tr data-element="colibri-bm-subline" data-label="Sublines">
+                  <td class="center-text" data-text-style="Sublines" align="center" style=" font-size: 20px;
+                    padding: 4px 0px;
+                    font-weight: 100;
+                    color: #555251;line-height:34px;font-style:normal;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+                        Reward to engage, empower and execute.
+
+                      </div>
+                    </singleline>
+                  </td>
+                </tr>
+              </table>
+              <!-- Content -->
+
+            </td>
+          </tr>
+          <!-- colibri-preheader-8 -->
+        </table>
+
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-header-8">
+          <!-- colibri-header-8 -->
+          <tr>
+            <td align="center" data-fallback-color="Fallback Color" bgcolor="#FFFFFF">
+
+              <div>
+                <!-- Content -->
+                <table data-inner-table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                  class="inner-table row" width="580" style="width:580px;max-width:580px;">
+
+                  <tr>
+                    <td align="center">
+                      <!-- Picture -->
+                      <table border="0" align="center" cellpadding="0" cellspacing="0" class="row container-padding"
+                        role="presentation" width="82.76%" style="width:100%;max-width:100%;">
+                        <tr>
+                          <td align="center" style="border:12px solid #FFFFFF;">
+                            <img class="auto-width" style="display:block;width:100%;max-width:100%;" data-image-edit
+                              data-url data-label="Picture" width="460"
+                              src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/Work_6.jpg"
+                              border="0" editable="true" alt="picture">
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- Picture -->
+                    </td>
+                  </tr>
+                  <tr>
+                    <td height="40" style="font-size:40px;line-height:40px;" data-height="Spacing top">&nbsp;
+                    </td>
+                  </tr>
+
+                </table>
+                <!-- Content -->
+              </div>
+            </td>
+          </tr>
+          <!-- colibri-header-8 -->
+        </table>
+
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-message-8">
+          <!-- colibri-basic-message-8 -->
+          <tr>
+            <td align="center" bgcolor="#FFFFFF" data-bgcolor="BgColor">
+
+              <!-- Content -->
+              <table data-inner-table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                class="inner-table row container-padding" width="580" style="width:580px;max-width:580px;">
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+                </tr>
+                <tr data-element="colibri-bm-subline" data-label="Sublines">
+                  <td class="center-text" data-text-style="Sublines" align="center"
+                    style=" font-family: 'Rubik', sans-serif;font-size:24px;line-height:34px;font-weight:400;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+
+                        <p style="
+                        
+                        color: #333333;
+                        font-weight: 300;
+                        font-size: 26px;
+                      ">
+                          Work with confidence and Liberty in a never before work culture.
+                        </p>
+                      </div>
+                    </singleline>
+                  </td>
+                </tr>
+                <!-- <tr data-element="colibri-bm-headline" data-label="Headlines">
+                  <td class="center-text" data-text-style="Headlines" align="center"
+                    style=" font-family: 'Rubik', sans-serif;font-size:38px;line-height:48px;font-weight:800;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+                        24 September 2021
+                      </div>
+                    </singleline>
+                  </td>
+                </tr> -->
+                <tr data-element="colibri-bm-headline" data-label="Headlines">
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing under headline">&nbsp;
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-paragraph" data-label="Paragraphs">
+                  <td class="center-text" data-text-style="Paragraphs" align="start"
+                    style=" font-family: 'Rubik', sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+
+                        <p style="
+                        margin-top: 25px;
+                        color: #333333;
+                        font-weight: 200;
+                        font-size: 18px;
+                      ">
+                          We will enable a level of empowerment and productivity that an organization can only dream of.
+                          No matter the size of the team or organization you work in, we have the perfect employee
+                          empowerment solution for any given situation.
+
+                        </p>
+                      </div>
+                    </singleline>
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-headline" data-label="Headlines">
+                  <td height="35" style="font-size:15px;line-height:15px;" data-height="Spacing under headline">&nbsp;
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-paragraph" data-label="Paragraphs">
+                  <td class="center-text" data-text-style="Paragraphs" align="start"
+                    style=" font-family: 'Rubik', sans-serif;font-size:18px;line-height:25px;font-weight:500;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+
+                        <p style="
+                        
+                        color: #333333;
+                        font-weight: 200;
+                        font-size: 18px;
+                      ">
+                          This festive season makes required changes and brings a well-organized and polished workspace
+                          culture to your organization with the help of our unique people management system, and be
+                          ready for the new year’s resolutions.
+
+                        </p>
+                      </div>
+                    </singleline>
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-headline" data-label="Headlines">
+                  <td height="35" style="font-size:15px;line-height:15px;" data-height="Spacing under headline">&nbsp;
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-paragraph" data-label="Paragraphs">
+                  <td class="center-text" data-text-style="Paragraphs" align="start"
+                    style=" font-family: 'Rubik', sans-serif;font-size:18px;line-height:25px;font-weight:500;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+
+                        <p style="
+                font-size: 40px;
+                font-weight: 400;
+                line-height: 50px;
+                color: #555251;
+                font-family: 'Rubik', sans-serif;
+              ">
+                          There is nothing more beautiful than caring for employees
+                        </p>
+
+                      </div>
+                    </singleline>
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-headline" data-label="Headlines">
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing under headline">&nbsp;
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-paragraph" data-label="Paragraphs">
+                  <td class="center-text" data-text-style="Paragraphs" align="start"
+                    style=" font-family: 'Rubik', sans-serif;font-size:14px;line-height:24px;font-weight:400;font-style:normal;color:#333333;text-decoration:none;letter-spacing:0px;">
+                    <singleline>
+                      <div mc:edit data-text-edit>
+                        <p style="
+                        margin-top: 25px;
+                        color: #333333;
+                        font-weight: 200;
+                        font-size: 18px;
+                      ">
+                          R2EEE is more than just an employee management system. It offers multiple services that
+                          enhance
+                          the workspace productivity.
+
+                        </p>
+
+                      </div>
+                    </singleline>
+                  </td>
+                </tr>
+                <tr data-element="colibri-bm-headline" data-label="Headlines">
+                  <td height="35" style="font-size:15px;line-height:15px;" data-height="Spacing under headline">&nbsp;
                   </td>
                 </tr>
 
-                <tr>
-                  <td class="responsive-div">
-                    <table cellpadding="0" cellspacing="0" role="presentation">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <table cellpadding="0" cellspacing="0" role="presentation"
-                              style="display: inline-block; width: 75px">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 0px">
-                                    <img src="./images/feedback.png" alt="" style="padding-bottom: 20px;width: 64px;" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  display: inline-block;
-                                  max-width: 375px;
-                                  vertical-align: top;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
+
+              </table>
+              <!-- Content -->
+            </td>
+          </tr>
+          <!-- colibri-basic-message-8 -->
+        </table>
+
+        <table data-outer-table border="0"  align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+          <!-- colibri-basic-paragraph-1 -->
+          <tr >
+            <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
+
+              <!-- Content -->
+              <table border="0"  align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+                width="480" style="width:480px;max-width:480px;">
+               
+                <tr >
+                  <td align="center">
+                    <!-- rwd-col -->
+                    <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                      width="100%" style="width:100%;max-width:100%;">
+                      <tr>
+                        <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-icon" data-label="Icon">
+                              <td align="center">
+                                <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                                  data-url data-label="Icon" width="68"
+                                  src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/feedback.png"
+                                  border="0" editable="true" alt="icon">
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                        <td class="rwd-col" align="center" width="5.17%" height="20"
+                          style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                        <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
+
+                          <!-- column -->
+                          <table border="0"  align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-title" data-label="Titles" >
+                              <td class="center-text" data-text-style="Titles" align="left"
+                                style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                                <singleline>
+                                  <div mc:edit data-text-edit>
                                     <p style="
-                                                                             padding-top: 25px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
+                                    
+ color: #555251;
+ font-weight: 100;
+ font-size: 20px;
+ line-height: 1.5;
+ margin-left: 20px;
+">
                                       <span style="font-weight: 500">
                                         Real time
 
                                       </span>
                                       feedback
                                     </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
 
-                        <tr style="border-top: 1px solid #f5f5f5">
-                          <td>
-                            <table style="
-                                  vertical-align: top;
-                                  display: inline-block;
-                                  width: 75px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 20px">
-                                    <img src="./images/performance.png" alt="" style="padding-bottom: 20px" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  vertical-align: top;
-                                  display: inline-block;
-                                  max-width: 375px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
+                                  </div>
+                                </singleline>
+                              </td>
+                            </tr>
+
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- rwd-col -->
+                  </td>
+                </tr>
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- Content -->
+
+            </td>
+          </tr>
+          <!-- colibri-basic-paragraph-1 -->
+        </table>
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+          <!-- colibri-basic-paragraph-1 -->
+          <tr>
+            <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
+
+              <!-- Content -->
+              <table style="border-top: 1px solid #f5f5f5" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+                width="480" style="width:480px;max-width:480px;">
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <!-- rwd-col -->
+                    <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                      width="100%" style="width:100%;max-width:100%;">
+                      <tr>
+                        <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-icon" data-label="Icon">
+                              <td align="center">
+                                <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                                  data-url data-label="Icon" width="68"
+                                  src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/performance.png"
+                                  border="0" editable="true" alt="icon">
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                        <td class="rwd-col" align="center" width="5.17%" height="20"
+                          style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                        <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-title" data-label="Titles">
+                              <td class="center-text" data-text-style="Titles" align="left"
+                                style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                                <singleline>
+                                  <div mc:edit data-text-edit>
                                     <p style="
-                                                                                 padding-top: 35px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
+                                  
+color: #555251;
+font-weight: 100;
+font-size: 20px;
+line-height: 1.5;
+margin-left: 20px;
+">
                                       <span style="font-weight: 500">
                                         Performance
                                       </span>
                                       management
                                     </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
 
-                        <tr style="border-top: 1px solid #f5f5f5">
-                          <td>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  width: 75px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 20px">
-                                    <img src="./images/secure-data.png" alt="" style="padding-bottom: 20px" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  max-width: 375px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
+                                  </div>
+                                </singleline>
+                              </td>
+                            </tr>
+
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- rwd-col -->
+                  </td>
+                </tr>
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- Content -->
+
+            </td>
+          </tr>
+          <!-- colibri-basic-paragraph-1 -->
+        </table>
+
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+          <!-- colibri-basic-paragraph-1 -->
+          <tr>
+            <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
+
+              <!-- Content -->
+              <table style="border-top: 1px solid #f5f5f5" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+                width="480" style="width:480px;max-width:480px;">
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <!-- rwd-col -->
+                    <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                      width="100%" style="width:100%;max-width:100%;">
+                      <tr>
+                        <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-icon" data-label="Icon">
+                              <td align="center">
+                                <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                                  data-url data-label="Icon" width="68"
+                                  src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/secure-data.png"
+                                  border="0" editable="true" alt="icon">
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                        <td class="rwd-col" align="center" width="5.17%" height="20"
+                          style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                        <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-title" data-label="Titles">
+                              <td class="center-text" data-text-style="Titles" align="left"
+                                style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                                <singleline>
+                                  <div mc:edit data-text-edit>
                                     <p style="
-                                                                                 padding-top: 35px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
-                                      Employee
+                                
+color: #555251;
+font-weight: 100;
+font-size: 20px;
+line-height: 1.5;
+margin-left: 20px;
+">Employee
                                       <span style="font-weight: 500">
-                                        data security
+                                        Employee
                                       </span>
 
                                     </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
 
-                        <tr style="border-top: 1px solid #f5f5f5">
-                          <td>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  width: 75px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 20px">
-                                    <img src="./images/award.png" alt="" style="padding-bottom: 20px" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  max-width: 375px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
+                                  </div>
+                                </singleline>
+                              </td>
+                            </tr>
+
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- rwd-col -->
+                  </td>
+                </tr>
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- Content -->
+
+            </td>
+          </tr>
+          <!-- colibri-basic-paragraph-1 -->
+        </table>
+
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+          <!-- colibri-basic-paragraph-1 -->
+          <tr>
+            <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
+
+              <!-- Content -->
+              <table style="border-top: 1px solid #f5f5f5" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+                width="480" style="width:480px;max-width:480px;">
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <!-- rwd-col -->
+                    <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                      width="100%" style="width:100%;max-width:100%;">
+                      <tr>
+                        <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-icon" data-label="Icon">
+                              <td align="center">
+                                <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                                  data-url data-label="Icon" width="68"
+                                  src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/award.png"
+                                  border="0" editable="true" alt="icon">
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                        <td class="rwd-col" align="center" width="5.17%" height="20"
+                          style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                        <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-title" data-label="Titles">
+                              <td class="center-text" data-text-style="Titles" align="left"
+                                style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                                <singleline>
+                                  <div mc:edit data-text-edit>
                                     <p style="
-                                                                                  padding-top: 35px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
+                              
+color: #555251;
+font-weight: 100;
+font-size: 20px;
+line-height: 1.5;
+margin-left: 20px;
+">
                                       <span style="font-weight: 500">
                                         Rewards
-                                      </span>
-                                      and <br>
-                                      <span style="font-weight: 500">
+
+                                      </span> and <span style="font-weight: 500">
+
                                         recognition
+
                                       </span>
                                       program
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
+                                    </p>
 
-                        <tr style="border-top: 1px solid #f5f5f5">
-                          <td>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  width: 75px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 20px">
-                                    <img src="./images/user-engagement.png" alt=""
-                                      style="padding-bottom: 20px;width: 64px;" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  max-width: 375px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <p style="
-                                                                                    padding-top: 25px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
-                                      <span style="font-weight: 500">
-                                        Employee engagement <br>
-                                      </span>
-                                      and
-                                      <span style="font-weight: 500">
-                                        Development program
-                                      </span>
+                                  </div>
+                                </singleline>
+                              </td>
+                            </tr>
 
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
+                          </table>
+                          <!-- column -->
 
-                        <tr style="border-top: 1px solid #f5f5f5">
-                          <td>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  width: 75px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 20px">
-                                    <img src="./images/analytics.png" alt=""
-                                      style="padding-bottom: 20px;width: 64px;" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  max-width: 375px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <p style="
-                                                                                    padding-top: 25px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
-                                      <span style="font-weight: 500">
-                                        Unparallel integration
-                                      </span>
-                                      with <br>several other
-                                      <span style="font-weight: 500">
-                                        analytical tools
-                                      </span>
-
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-
-
-                        <tr style="border-top: 1px solid #f5f5f5">
-                          <td>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  width: 75px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td style="padding-top: 20px">
-                                    <img src="./images/quiz.png" alt="" style="padding-bottom: 20px;width: 64px;" />
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                            <table style="
-                                  display: inline-block;
-                                  vertical-align: top;
-                                  max-width: 375px;
-                                " cellpadding="0" cellspacing="0" role="presentation">
-                              <tbody>
-                                <tr>
-                                  <td>
-                                    <p style="
-                                          padding-top: 35px;
-                                          color: #555251;
-                                          font-weight: 100;
-                                          font-size: 20px;
-                                          line-height: 1.5;
-                                          margin-left: 20px;
-                                        ">
-                                      <span style="font-weight: 500">
-                                        1- on-1s
-                                      </span>
-                                      agenda
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </td>
-                        </tr>
-                      </tbody>
+                        </td>
+                      </tr>
                     </table>
+                    <!-- rwd-col -->
                   </td>
                 </tr>
                 <tr>
-                  <td style="text-align: center; padding: 40px 50px 64px">
-                    <a style="
-                          border: none;
-                          color: #fff;
-                          padding: 10px 38px;
-                          border-radius: 30px;
-                          background-color: #1c85e8;
-                          margin-top: 32px;
-                          font-size: 18px;
-                          text-decoration: none;
-                        " target="_blank">
-                      Know More
-                    </a>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- Content -->
+
+            </td>
+          </tr>
+          <!-- colibri-basic-paragraph-1 -->
+        </table>
+
+
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+          <!-- colibri-basic-paragraph-1 -->
+          <tr>
+            <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
+
+              <!-- Content -->
+              <table style="border-top: 1px solid #f5f5f5" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+                width="480" style="width:480px;max-width:480px;">
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <!-- rwd-col -->
+                    <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                      width="100%" style="width:100%;max-width:100%;">
+                      <tr>
+                        <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-icon" data-label="Icon">
+                              <td align="center">
+                                <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                                  data-url data-label="Icon" width="68"
+                                  src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/user-engagement.png"
+                                  border="0" editable="true" alt="icon">
+                              </td>
+                            </tr>
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                        <td class="rwd-col" align="center" width="5.17%" height="20"
+                          style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                        <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
+
+                          <!-- column -->
+                          <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                            width="100%" style="width:100%;max-width:100%;">
+                            <tr data-element="colibri-content-title" data-label="Titles">
+                              <td class="center-text" data-text-style="Titles" align="left"
+                                style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                                <singleline>
+                                  <div mc:edit data-text-edit>
+                                    <p style="
+                              
+color: #555251;
+font-weight: 100;
+font-size: 20px;
+line-height: 1.5;
+margin-left: 20px;
+">
+                                      <span style="font-weight: 500">
+                                        Employee engagement
+                                        
+                                        
+                                        
+
+                                      </span> and <span style="font-weight: 500">
+
+                                         Development 
+
+                                      </span>
+                                      program
+                                    </p>
+
+                                  </div>
+                                </singleline>
+                              </td>
+                            </tr>
+
+                          </table>
+                          <!-- column -->
+
+                        </td>
+                      </tr>
+                    </table>
+                    <!-- rwd-col -->
                   </td>
                 </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </table>
+                <tr>
+                  <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+                </tr>
+              </table>
+              <!-- Content -->
 
+            </td>
+          </tr>
+          <!-- colibri-basic-paragraph-1 -->
+        </table>
 
-
-
-      <table cellpadding="0" cellspacing="0" role="presentation" align="center" style="
-            border-spacing: 0;
-            color: #3d3d3d;
-            font-family: 'Rubik', sans-serif, Arial, Helvetica;
-            background-color: #ffffff;
-            margin: 0;
-            padding-top: 0;
-            padding-right: 0;
-            padding-bottom: 0;
-            padding-left: 0;
-            width: 100%;
-            max-width: 680px;
-            margin-top: 15px;
-          " background="#ffffff" role="presentation">
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+        role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+        <!-- colibri-basic-paragraph-1 -->
         <tr>
-          <td style="padding: 44px 0 40px">
-            <!-- ------------  Footer - START------- -->
+          <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
 
-            <table style="
-                  font-family: 'Rubik', sans-serif;
-                  background-color: #fff;
-                  text-align: center;
-                " role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-              <tbody>
-                <tr>
-                  <td style="padding: 0">
-                    <table style="width: 100%" cellpadding="0" cellspacing="0" role="presentation">
-                      <tbody>
-                        <tr>
-                          <td style="
-                                height: 70px;
-                                font-weight: 100;
-                                font-size: 20px;
-                                line-height: 1.4;
-                                padding: 0 80px 10px;
-                              ">
-                            Contact us now to experience the power tool that can be tuned for your organizational needs
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+            <!-- Content -->
+            <table style="border-top: 1px solid #f5f5f5" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+              width="480" style="width:480px;max-width:480px;">
+              <tr>
+                <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="center">
+                  <!-- rwd-col -->
+                  <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                    width="100%" style="width:100%;max-width:100%;">
+                    <tr>
+                      <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
 
-                    <table role="presentation" cellpadding="0" cellspacing="0" style="width: 224px; margin: 7px auto 0">
-                      <tbody>
-                        <tr>
-                          <td>
-                            <a href="#" target="_blank">
-                              <img src="./images/facebook.png" style="width: 40px;" alt="" />
+                        <!-- column -->
+                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                          width="100%" style="width:100%;max-width:100%;">
+                          <tr data-element="colibri-content-icon" data-label="Icon">
+                            <td align="center">
+                              <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                                data-url data-label="Icon" width="68"
+                                src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/analytics.png"
+                                border="0" editable="true" alt="icon">
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- column -->
 
-                            </a>
-                          </td>
-                          <td>
-                            <a href="#" target="_blank">
-                              <img src="./images/instagram.png" style="width: 40px;" alt="" />
-                            </a>
-                          </td>
-                          <td>
-                            <a href="#" target="_blank">
-                              <img src="./images/twitter.png" style="width: 40px;" alt="" />
-                            </a>
-                          </td>
+                      </td>
+                      <td class="rwd-col" align="center" width="5.17%" height="20"
+                        style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                      <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
 
-                          <td>
-                            <a href="#" target="_blank">
-                              <img src="./images/linkedin.png" style="width: 40px;" alt="" />
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                        <!-- column -->
+                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                          width="100%" style="width:100%;max-width:100%;">
+                          <tr data-element="colibri-content-title" data-label="Titles">
+                            <td class="center-text" data-text-style="Titles" align="left"
+                              style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                              <singleline>
+                                <div mc:edit data-text-edit>
+                                  <p style="
+                            
+color: #555251;
+font-weight: 100;
+font-size: 20px;
+line-height: 1.5;
+margin-left: 20px;
+">
+                                    <span style="font-weight: 500">
+                                      Unparallel integration 
+                                      
+                                      
 
-                    <table style="
-                          width: 420px;
-                          margin: 24px auto 0;
-                          font-size: 14px;
-                          font-weight: 500;
-                        " cellpadding="0" cellspacing="0" role="presentation">
-                      <tbody>
-                        <tr>
-                          <td style="padding: 0px 12px 0px 42px">
-                            <a href="#" target="_blank" style="color: #555251; text-decoration: none">
-                              Contact
-                            </a>
-                          </td>
-                          <td style="padding: 0 12px">
-                            <a href="#" target="_blank" style="color: #555251; text-decoration: none">
-                              How it Works
-                            </a>
-                          </td>
-                          <td style="padding: 0 12px">
-                            <a href="#" target="_blank" style="color: #555251; text-decoration: none">
-                              About
-                            </a>
-                          </td>
-                          <td style="padding: 0 12px">
-                            <a href="#" target="_blank" style="color: #555251; text-decoration: none">
-                              Terms &amp; Conditions
-                            </a>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
+                                    </span> with <br> several other <span style="font-weight: 500">
 
+                                      
+                                      analytical tools
+                                      
 
+                                    </span>
+                                    
+                                  </p>
 
-                    <p style="
-                          padding-top: 58px;
-                          font-size: 12px;
-                          line-height: 19px;
-                          color: #66667e;
-                          font-weight: 300;
-                        ">
-                      © 2021 Roundtechsquare. All rights reserved. <br />
-                      1461 N DALY ST ANAHEIM CA 92806, USA
+                                </div>
+                              </singleline>
+                            </td>
+                          </tr>
 
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
+                        </table>
+                        <!-- column -->
+
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- rwd-col -->
+                </td>
+              </tr>
+              <tr>
+                <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+              </tr>
             </table>
+            <!-- Content -->
+
           </td>
         </tr>
+        <!-- colibri-basic-paragraph-1 -->
       </table>
 
-      <!--[if (gte mso 9)|(IE)]>
-				</td>
-				</tr>
-				</table>
-			<![endif]-->
-    </div>
-  </center>
+      <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+      role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-basic-paragraph-1">
+      <!-- colibri-basic-paragraph-1 -->
+      <tr>
+        <td align="center" bgcolor="#fff" data-bgcolor="BgColor">
+
+          <!-- Content -->
+          <table style="border-top: 1px solid #f5f5f5" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+            width="480" style="width:480px;max-width:480px;">
+            <tr>
+              <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing top">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center">
+                <!-- rwd-col -->
+                <table border="0" cellpadding="0" cellspacing="0" align="center" class="container-padding"
+                  width="100%" style="width:100%;max-width:100%;">
+                  <tr>
+                    <td class="rwd-col" align="center" width="11.03%" style="width:11.03%;max-width:11.03%;">
+
+                      <!-- column -->
+                      <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                        width="100%" style="width:100%;max-width:100%;">
+                        <tr data-element="colibri-content-icon" data-label="Icon">
+                          <td align="center">
+                            <img style="display:block;width:100%;max-width:64px;border:0px;" data-image-edit
+                              data-url data-label="Icon" width="68"
+                              src="https://d-shah1.github.io/R2EEE-Redefined-Website/email.template/images/quiz.png"
+                              border="0" editable="true" alt="icon">
+                          </td>
+                        </tr>
+                      </table>
+                      <!-- column -->
+
+                    </td>
+                    <td class="rwd-col" align="center" width="5.17%" height="20"
+                      style="width:5.17%;max-width:5.17%;height:20px;">&nbsp;</td>
+                    <td class="rwd-col" align="center" width="83.79%" style="width:83.79%;max-width:83.79%;">
+
+                      <!-- column -->
+                      <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                        width="100%" style="width:100%;max-width:100%;">
+                        <tr data-element="colibri-content-title" data-label="Titles">
+                          <td class="center-text" data-text-style="Titles" align="left"
+                            style="color:white;color:white;font-size:20px;line-height:24px;font-weight:700;font-style:normal;color:#444444;text-decoration:none;letter-spacing:0px;">
+                            <singleline>
+                              <div mc:edit data-text-edit>
+                                <p style="
+                          
+color: #555251;
+font-weight: 100;
+font-size: 20px;
+line-height: 1.5;
+margin-left: 20px;
+">
+                                  <span style="font-weight: 500">
+                                    1- on-1s 
+                                    
+                                    
+
+                                  </span> agenda
+                                  
+                                </p>
+
+                              </div>
+                            </singleline>
+                          </td>
+                        </tr>
+
+                      </table>
+                      <!-- column -->
+
+                    </td>
+                  </tr>
+                </table>
+                <!-- rwd-col -->
+              </td>
+            </tr>
+            <tr>
+              <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing bottom">&nbsp;</td>
+            </tr>
+            
+            <tr data-element="colibri-button" data-label="Buttons">
+              <td align="center">
+                <!-- Button -->
+                <table border="0" cellspacing="0" cellpadding="0" role="presentation" align="center"
+                  class="center-float">
+                  <tr>
+                    <td align="center" data-border-radius-default="0,6,36" data-border-radius-custom="Buttons"
+                      data-bgcolor="Buttons" bgcolor="#3F78E0" style="border-radius: 36px;">
+                      <!--[if (gte mso 9)|(IE)]>
+    <table border="0" cellpadding="0" cellspacing="0" align="center">
+      <tr>
+        <td align="center" width="35"></td>
+        <td align="center" height="50" style="height:50px;">
+        <![endif]-->
+                      <singleline>
+                        <a href="https://r2eee.com/" mc:edit data-button data-text-style="Buttons"
+                          style=" font-family: 'Rubik', sans-serif;font-size:16px;line-height:20px;font-weight:700;font-style:normal;color:#FFFFFF;text-decoration:none;letter-spacing:0px;padding: 15px 35px 15px 35px;display: inline-block;"><span>Know More</span></a>
+                      </singleline>
+                      <!--[if (gte mso 9)|(IE)]>
+        </td>
+        <td align="center" width="35"></td>
+      </tr>
+    </table>
+  <![endif]-->
+                    </td>
+                  </tr>
+                </table>
+                <!-- Buttons -->
+              </td>
+            </tr>
+            <tr>
+              <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing bottom">&nbsp;</td>
+            </tr>
+          </table>
+          <!-- Content -->
+
+        </td>
+      </tr>
+      <!-- colibri-basic-paragraph-1 -->
+    </table>
+
+
+
+     
+     
+      </td>
+    </tr><!-- Outer-Table -->
+  </table>
+  <tr data-element="colibri-footer-logo" data-label="Logo on Footer">
+    <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing under logo">&nbsp;</td>
+  </tr>
+  <tr data-element="colibri-footer-logo" data-label="Logo on Footer">
+    <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing under logo">&nbsp;</td>
+  </tr>
+  <tr data-element="colibri-footer-logo" data-label="Logo on Footer">
+    <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing under logo">&nbsp;</td>
+  </tr>
+  <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="width:100%;max-width:100%;">
+    <tr>
+      <!-- Outer Table -->
+      <td align="center" data-bgcolor="Body" bgcolor="#F1F5FD" data-composer>
+
+        <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+          role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-preheader-8">
+          <!-- colibri-preheader-8 -->
+          <tr>
+            <td align="center" bgcolor="#FFFFFF" data-bgcolor="BgColor">
+
+              <table data-outer-table border="0" align="center" cellpadding="0" cellspacing="0" class="outer-table row"
+              role="presentation" width="640" style="width:640px;max-width:640px;" data-module="colibri-featured-speaker">
+              <!-- colibri-featured-speaker -->
+              <tr>
+                <td align="center" bgcolor="#FFFFFF" data-bgcolor="BgColor">
+    
+                  <!-- Content -->
+                  <table data-inner-table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                    class="inner-table row container-padding" width="580" style="width:580px;max-width:580px;">
+                    <tr>
+                      <td height="5" style="font-size:5px;line-height:5px;" data-height="Spacing top">&nbsp;</td>
+                    </tr>
+    
+                    <tr data-element="colibri-avatar-occupation" data-label="Occupation">
+                      <td height="20" style="font-size:20px;line-height:20px;" data-height="Spacing under avatar">&nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="15" style="font-size:15px;line-height:15px;" data-height="Spacing bottom">&nbsp;</td>
+                    </tr>
+                  
+                    <tr data-element="colibri-bm-avatar-name" data-label="Avatar name">
+                      <td class="center-text" data-text-style="Avatar name" align="center"
+                        style=" font-family: 'Rubik', sans-serif; text-decoration:none;letter-spacing:0px;">
+                        <singleline>
+                          <div mc:edit data-text-edit>
+                            <p style="
+                            height: 70px;
+                            font-weight: 100;
+                            font-size: 20px;
+                            line-height: 1.4;
+                            
+                          ">
+                        Contact us now to experience the power tool that can be <br>tuned for your organizational needs
+                          </p>
+                          </div>
+                        </singleline>
+                      </td>
+                    </tr>
+    
+    
+    
+    
+                    <tr data-element="colibri-avatar-occupation" data-label="Occupation">
+                      <td height="20" style="font-size:20px;line-height:20px;" data-height="Spacing under avatar">&nbsp;
+                      </td>
+                    </tr>
+    
+                    <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
+                    class="row container-padding" width="520" style="width:520px;max-width:520px;">
+                
+                    <tr data-element="colibri-footer-social-icons" data-label="Social Icons">
+                      <td align="center">
+                        <!-- Social Icons -->
+                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+                          style="width:100%;max-width:100%;">
+                          <tr>
+                            <td align="center">
+                              <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                                <tr>
+                                  <td data-element="colibri-footer-facebook" data-label="Facebook" class="rwd-on-mobile"
+                                    align="center" valign="middle" height="36" style="height: 36px;">
+                                    <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                                      <tr>
+                                        <td width="10"></td>
+                                        <td align="center">
+                                          <a href="https://www.facebook.com/Offical.LiiftSocial/" target="_blank">
+                                            <img src="https://hvs911.github.io/Barcode-Marketing/img/facebook.png"
+                                              style="width: 40px;" alt="" />
+    
+                                          </a>
+                                        </td>
+                                        <td width="10"></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td data-element="colibri-footer-facebook" data-label="Facebook" class="rwd-on-mobile"
+                                    align="center" valign="middle" height="36" style="height: 36px;">
+                                    <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                                      <tr>
+                                        <td width="10"></td>
+                                        <td align="center">
+                                          <a href="https://instagram.com/offical.liiftsocial" target="_blank">
+                                            <img src="https://hvs911.github.io/Barcode-Marketing/img/instagram.png"
+                                              style="width: 40px;" alt="" />
+    
+                                          </a>
+                                        </td>
+                                        <td width="10"></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                  <td data-element="colibri-footer-facebook" data-label="Facebook" class="rwd-on-mobile"
+                                    align="center" valign="middle" height="36" style="height: 36px;">
+                                    <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                                      <tr>
+                                        <td width="10"></td>
+                                        <td align="center">
+                                          <a href="https://www.linkedin.com/company/liiftsocial" target="_blank">
+                                            <img src="https://hvs911.github.io/Barcode-Marketing/img/linkedin.png"
+                                              style="width: 40px;" alt="" />
+    
+                                          </a>
+                                        </td>
+                                        <td width="10"></td>
+                                      </tr>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- Social Icons -->
+                      </td>
+                    </tr>
+                    <tr data-element="colibri-footer-social-icons" data-label="Social Icons">
+                      <td height="20" style="font-size:20px;line-height:20px;" data-height="Spacing under social icons">
+                        &nbsp;</td>
+                    </tr>
+    
+    
+                    <tr data-element="colibri-footer-tags" data-label="Tags">
+                      <td align="center">
+                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation">
+                          <tr class="center-on-mobile">
+    
+                            <td data-element="colibri-footer-forward" data-label="Forward" data-text-style="Paragraphs"
+                              class="rwd-on-mobile center-text" align="center"
+                              style=" font-family: 'Rubik', sans-serif;font-size:14px;line-height:24px;font-weight:300;font-style:normal;color:#3.4566;text-decoration:none;letter-spacing:0px;">
+                              <forward href="#" data-mergetag="Forward"
+                                style=" font-family: 'Rubik', sans-serif;font-size:14px;font-weight:300;line-height:24px;color:#3.4566;text-decoration:none;">
+                                Connect with us</forward>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr data-element="colibri-footer-divider" data-label="Dividers">
+                      <td height="26" data-height="Spacing bottom" data-border-color="Dividers"
+                        style="border-bottom: 4px dotted #E4E4E4;font-size:26px;line-height:26px;">&nbsp;</td>
+                    </tr>
+                    <tr data-element="colibri-footer-divider" data-label="Dividers">
+                      <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing under divider">&nbsp;
+                      </td>
+                    </tr>
+                    <tr data-element="colibri-footer-paragraphs" data-label="Paragraphs">
+                      <td align="center">
+                        <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" class="row"
+                          width="480" style="width:480px;max-width:480px;">
+                          <tr>
+                            <td class="center-text" data-text-style="Paragraphs" align="center"
+                              style=" font-family: 'Rubik', sans-serif;font-size:14px;line-height:24px;font-weight:300;font-style:normal;color:#3.4566;text-decoration:none;letter-spacing:0px;">
+                              <multiline>
+                                <div mc:edit data-text-edit>
+                                  © 2021 Roundtechsquare.<br>
+                                  1461 N DALY ST ANAHEIM
+                                  CA 92806, USA
+                                </div>
+                              </multiline>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr data-element="colibri-footer-logo" data-label="Logo on Footer">
+                      <td height="30" style="font-size:30px;line-height:30px;" data-height="Spacing under logo">&nbsp;</td>
+                    </tr>
+                    <tr data-element="colibri-footer-logo" data-label="Logo on Footer">
+                      <td align="center" class="center-text">
+                        <img style="width:120px;border:0px;display: inline!important;"
+                          src="https://www.r2eee.com/img/R2EEE-Logo.png" width="120" border="0" editable="true" data-icon
+                          data-image-edit data-url data-label="Logo" data-image-width alt="logo">
+                      </td>
+                    </tr>
+                  
+                  </table>
+                   
+                    <tr>
+                      <td height="40" style="font-size:40px;line-height:40px;" data-height="Spacing bottom">&nbsp;</td>
+                    </tr>
+                  </table>
+                  <!-- Content -->
+    
+                </td>
+              </tr>
+              <!-- colibri-featured-speaker -->
+            </table>
+            </td>
+            </tr>
+            </table>
+      </td></tr></table>
+      <tr>
+        <td height="60" style="font-size:60px;line-height:60px;" data-height="Footer spacing bottom">&nbsp;
+        </td>
+      </tr>
 </body>
 
 </html>
